@@ -1,0 +1,10 @@
+# Gradle
+
+/build
+/.gradle
+
+# JetBrains
+/.idea
+
+# macos
+.DS_Store

@@ -1,0 +1,9 @@
+scrape_configs:
+  - job_name: 'logging-service-1'
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: ['logging-service-1:8080']
+  - job_name: 'logging-service-2'
+    metrics_path: '/actuator/prometheus'
+    static_configs:
+      - targets: [ 'logging-service-2:8080' ]
